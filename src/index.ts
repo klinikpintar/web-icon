@@ -5,6 +5,7 @@ import ArrowLeft from './icons/ArrowLeft.svg'
 import ArrowRight from './icons/ArrowRight.svg'
 import ArrowUp from './icons/ArrowUp.svg'
 import Calendar from './icons/Calendar.svg'
+import CheckCircle from './icons/CheckCircle.svg'
 import ChevronDown from './icons/ChevronDown.svg'
 import ChevronLeft from './icons/ChevronLeft.svg'
 import ChevronRight from './icons/ChevronRight.svg'
@@ -33,6 +34,7 @@ export default {
     ArrowRight,
     ArrowUp,
     Calendar,
+    CheckCircle,
     ChevronDown,
     ChevronLeft,
     ChevronRight,
