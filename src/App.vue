@@ -8,7 +8,7 @@ import Icons from './index'
     <div class="grid grid-cols-10 gap-4">
       <div v-for="key in Object.keys(Icons)" class="border rounded flex flex-col">
         <div class="grow flex items-center justify-center bg-gray-100 py-2">
-          <component :is="Icons[key]" width="50"/>
+          <component :is="`Icon${key}`" width="50" class="fill-primary"/>
         </div>
         <div class="text-xs text-center border-t px-2 py-2">{{ key }}</div>
       </div>
