@@ -1,6 +1,7 @@
 {
   "name": "klinikpintar-web-icons",
   "version": "0.0.1.beta.1",
+  "main": "src/index.ts",
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
