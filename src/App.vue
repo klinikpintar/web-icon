@@ -19,7 +19,7 @@ const color = ref('primary')
     <div class="grid grid-cols-10 gap-4">
       <div v-for="key in Object.keys(Icons)" class="border rounded flex flex-col">
         <div class="grow flex items-center justify-center bg-gray-100 py-2">
-          <component :is="`Icon${key}`" width="40" :class="`fill-${color}`"/>
+          <component :is="`Icon${key}`" :class="`text-${color}`"/>
         </div>
         <div class="text-xs text-center border-t px-2 py-2">{{ key }}</div>
       </div>
