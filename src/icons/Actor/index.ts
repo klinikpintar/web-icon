@@ -1,0 +1,5 @@
+export { default as Doctor } from './Doctor.svg'
+export { default as Partner } from './Partner.svg'
+export { default as Pasien } from './Pasien.svg'
+export { default as User } from './User.svg'
+export { default as UserGroup } from './UserGroup.svg'

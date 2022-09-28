@@ -7,7 +7,7 @@ Collection of svg icon file
 npm i klinikpintar-web-icons
 ```
 ## Usage
-All the icons is placed in `/src/icons` frolder, so you can find and use the svg file icon. But in modern application we usually treat svg as an component.
+All the icons are placed in `/src/icons` frolder, so you can find and use the svg file icon. But in modern application we usually treat svg as an component.
 ### Vite
 In vite implementation make sure you have installed the svg autoloader `vite-svg-loader`, you can install it via npm too.
 ```
