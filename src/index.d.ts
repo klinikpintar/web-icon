@@ -4,6 +4,7 @@ declare module '*.svg' {
     export default content;
 }
 
+export interface Icon { name: string, group: string, icon: VueConstructor }
 export interface Icons {
-    [key:string]: VueConstructor
+    [key:string]: Icon
 }
