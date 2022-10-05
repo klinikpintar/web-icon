@@ -20,9 +20,17 @@ const createComponent = (
     render (_ctx:any, _cache:any) {
       const svg = icon.icon.render(_ctx, _cache)
 
-      svg.props.width = this.width
-      svg.props.height = this.height
-      svg.props.class = defaultClass
+      if (this.width) {
+        svg.props.width = this.width
+      }
+
+      if (this.height) {
+        svg.props.height = this.height
+      }
+
+      if (defaultClass) {
+        svg.props.class = defaultClass
+      }
 
       return svg
     }
